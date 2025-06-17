@@ -10,17 +10,17 @@ load_dotenv()
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
 
-EVAL = list(map(int, getenv("EVAL", "7716352578 7091230649").split()))
+EVAL = list(map(int, getenv("EVAL", "7789325573").split()))
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","Ownergit")
+OWNER_USERNAME = getenv("OWNER_USERNAME","moon_m_5")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "ISTKHARkoBot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "musicXanime_bot")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "ISTKHARko")
+BOT_NAME = getenv("BOT_NAME" , "Annie 𐌑ᥙsiᥴ [ ɴᴏ ᴀᴅʂ ] 🕊")
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME" , "MissYumikoo")
+ASSUSERNAME = getenv("ASSUSERNAME" , "AnnieMusicPlayarx")
 # ---------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -28,9 +28,9 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1002141133985))
+LOGGER_ID = int(getenv("LOGGER_ID", ""))
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 7403621976))
+OWNER_ID = int(getenv("OWNER_ID", 7789325573))
 # ---------------------------------------------------------------
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # ----------------------------------------------------------------
@@ -38,7 +38,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Samarth-1206/New-BILI-",
+    "https://github.com/abcdefghij803/music",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -47,8 +47,8 @@ GIT_TOKEN = getenv(
 API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
 API_KEY = getenv("API_KEY", 'NxGBNexGenBots7ed2dc') # youtube song api ke
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/KAISEN_UPDATES")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/GHOULS_SUPPORT")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.mebtw_moon")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+zOo21P9qDW4wZjk1")
 # ------------------------------------------------------------------------------
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "9000"))
