@@ -68,9 +68,9 @@ def stream_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
          [
-             InlineKeyboardButton(text="σᴡηєʀ", url="https://t.me/I_KAISEN"),
+             InlineKeyboardButton(text="σᴡηєʀ", url="https://t.me/btw_moon"),
              InlineKeyboardButton(text="๏ ᴧᴅᴅ ϻє ๏", url=f"https://t.me/{app.username}?startgroup=true"),
-             InlineKeyboardButton(text="ѕᴜᴘᴘσʀᴛ", url="https://t.me/GHOULS_SUPPORT")
+             InlineKeyboardButton(text="ѕᴜᴘᴘσʀᴛ", url="https://t.me/+zOo21P9qDW4wZjk1")
          ],
         [
             InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close"),
@@ -89,9 +89,9 @@ def stream_markup(_, chat_id):
            # InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
          #],
         [
-             InlineKeyboardButton(text="σᴡηєʀ", url="https://t.me/I_KAISEN"),
+             InlineKeyboardButton(text="σᴡηєʀ", url="https://t.me/btw_mooN"),
              InlineKeyboardButton(text="๏ ᴧᴅᴅ ϻє ๏", url=f"https://t.me/{app.username}?startgroup=true"),
-             InlineKeyboardButton(text="ѕᴜᴘᴘσʀᴛ", url="https://t.me/GHOULS_SUPPORT")
+             InlineKeyboardButton(text="ѕᴜᴘᴘσʀᴛ", url="https://t.me/+zOo21P9qDW4wZjk1")
          ],
         [
             InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close"),
